@@ -1,7 +1,7 @@
 Param
 (
   [Parameter (Mandatory= $true)]
-  [String] $upn = "d365fo-adm-mfatest@mypubliccloud.onmicrosoft.com"
+  [String] $upn = "example-account@mypubliccloud.onmicrosoft.com" #initial value, not used
 )
 
 # Import automation credential
